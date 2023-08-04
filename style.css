@@ -17,7 +17,7 @@
   --pink: hsl(322, 100%, 66%);
   --lightpink: hsl(321, 100%, 78%);
   --lightred: hsl(0, 100%, 63%);
-  --verydarkcyan: hsl(192, 100%, 9%);
+  --verydarkcyan: #00252e;
   --verypaleblue: hsl(207, 100%, 98%);
 }
 
@@ -211,6 +211,7 @@ h2 {
 /* ******************** */
 
 .cta {
+  position: relative;
   text-align: center;
   margin-bottom: 9.6rem;
 }
@@ -225,6 +226,7 @@ h3 {
 /* FOOTER*/
 /* ******************** */
 footer {
+  position: relative;
   background-color: var(--verydarkcyan);
   color: #eee;
   display: flex;
@@ -349,4 +351,11 @@ h4 {
     justify-content: center;
     align-content: center;
   }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
 }
